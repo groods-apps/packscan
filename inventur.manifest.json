@@ -1,0 +1,32 @@
+{
+  "id": "./inventur.html",
+  "name": "Inventur – Dolibarr",
+  "short_name": "Inventur",
+  "lang": "de",
+  "start_url": "./inventur.html",
+  "scope": "./inventur.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1115",
+  "theme_color": "#e65100",
+  "icons": [
+    {
+      "src": "inventur-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "inventur-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "inventur-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
