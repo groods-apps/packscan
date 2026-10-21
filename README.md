@@ -6,7 +6,7 @@ PackScan and Inventur (Inventory) are two free, open-source web apps for iPhone 
 
 Built by Stefan Grumpelt at **gRoods.de** for daily use in a real online shop and warehouse.
 
-[Project website](https://groods.de/packscan/) · [Try PackScan](https://groods.de/demo/packscan/) · [Try Inventur](https://groods.de/demo/inventur/) · [Setup guide (German)](https://groods.de/packscan/anleitung.html) · [Download installation ZIP](https://groods.de/packscan/download/lager-apps.zip)
+[Project website](https://groods.de/packscan/) · [Try PackScan](https://groods.de/demo/packscan/) · [Try Inventur](https://groods.de/demo/inventur/) · [Setup guide](https://groods.de/packscan/anleitung-en.html) · [Download installation ZIP](https://groods.de/packscan/download/lager-apps.zip)
 
 ## Screenshots
 
