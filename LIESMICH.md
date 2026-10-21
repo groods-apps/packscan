@@ -1,9 +1,11 @@
-# PackScan und Inventur 1.1.0
+# PackScan und Inventur 1.2.0
 
 Zwei Web-Apps für iPhone und Android, die direkt mit Dolibarr arbeiten:
 
 - **PackScan:** Pickliste nach Lagerplatz, Freigabe gepickter Aufträge, Einpacken per Label-Scan, Versand abschließen
-- **Inventur:** Artikel scannen, Lagerplatz vergeben, Bestand je Lager korrigieren
+- **Inventur:** Artikel scannen, Lagerplatz vergeben, Bestand je Lager korrigieren, Zählliste und Inventurprotokoll als PDF oder CSV exportieren
+
+Quellcode und Änderungen: https://github.com/groods-apps/packscan
 
 ## Sprachen
 
