@@ -1,4 +1,4 @@
-# PackScan und Inventur 1.3.1
+# PackScan und Inventur 1.3.2
 
 Zwei Web-Apps für iPhone und Android, die direkt mit Dolibarr arbeiten:
 
@@ -39,3 +39,13 @@ Dieses Programm ist freie Software: Du kannst es unter den Bedingungen der GNU G
 Enthält ZXing-C++ (Apache-2.0) über zxing-wasm (MIT). Das Auslesen des Internetmarken-Matrixcodes folgt dem Verfahren der App BinaryEye (MIT).
 
 Kontakt und Einrichtungspaket: info@groods.de, WhatsApp +49 351 16078332
+
+## Updates
+
+Beide Apps prüfen beim Start und jedes Mal, wenn du sie wieder nach vorne holst, ob auf dem Server eine neue Fassung liegt. Dann erscheint oben „Neue Version verfügbar – Aktualisieren“. Begonnene Pick- und Packmengen bleiben dabei erhalten.
+
+Die mitgelieferte `.htaccess` (Apache) sorgt dafür, dass der Browser die Dateien nicht stunden- oder tagelang aus dem Speicher nimmt. Bei nginx entspricht das:
+
+```
+location ~* \.(html|webmanifest|json)$ { add_header Cache-Control "no-cache"; }
+```
